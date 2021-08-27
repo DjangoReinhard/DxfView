@@ -1,0 +1,6 @@
+*.bak
+*.o
+*.log
+*~
+build/*
+test/*
