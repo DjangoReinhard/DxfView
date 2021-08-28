@@ -141,14 +141,14 @@ LIBS += -lTKVRML
 RESOURCES += \
     icons.qrc
 
-# qmake DxfRead.pro CONFIG+=configA
+# qmake DxfView.pro CONFIG+=configA
 configA {
-TARGET = DxfRead
+TARGET = DxfView
 SOURCES += main.cpp \
     mainwindow.cpp
 }
 
-# qmake DxfRead.pro CONFIG+=configB
+# qmake DxfView.pro CONFIG+=configB
 configB {
 TARGET = test/TestDxfReader
 SOURCES += test/TestDxfReader.cpp \

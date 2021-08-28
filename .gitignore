@@ -2,5 +2,7 @@
 *.o
 *.log
 *~
+*.pro.user
+*.qm
 build/*
 test/*
