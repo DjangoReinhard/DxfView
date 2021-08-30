@@ -14,6 +14,8 @@ QMAKE_CXXFLAGS_RELEASE -= -O2
 QMAKE_CXXFLAGS_RELEASE += -g
 
 SOURCES += \
+    main.cpp \
+    mainwindow.cpp \
     abstract3dcontrol.cpp \
     dxfcontrol.cpp \
     libocc/draw_primitives.cpp \
